@@ -57,7 +57,7 @@ public class CarbonInvoiceService {
 		Integer randomVendor = ThreadLocalRandom.current().nextInt(0, ALL_VENDORS.length - 1);
 
 		List<Product> allProducts = productsService.productsByVendor(ALL_VENDORS[randomVendor]);
-		Integer randomAmountOfProducts = ThreadLocalRandom.current().nextInt(1, 10);
+		Integer randomAmountOfProducts = ThreadLocalRandom.current().nextInt(2, 10);
 		Long totalAmount = 0L;
 
 		CarbonInvoice carbonInvoice = new CarbonInvoice();
