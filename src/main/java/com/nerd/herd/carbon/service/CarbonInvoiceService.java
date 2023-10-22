@@ -70,7 +70,7 @@ public class CarbonInvoiceService {
 
 
 		for (int i = 0; i < randomAmountOfProducts; i++) {
-			Integer randomProductI = ThreadLocalRandom.current().nextInt(0, allProducts.size() - 1);
+			Integer randomProductI = allProducts.size() > 1 ? ThreadLocalRandom.current().nextInt(0, allProducts.size() - 1) : 0;
 			Integer randomProductQty = ThreadLocalRandom.current().nextInt(1, 7);
 
 			Product randomProduct = allProducts.get(randomProductI);
