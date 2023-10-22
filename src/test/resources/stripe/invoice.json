@@ -1,0 +1,7 @@
+{
+  "autoAdvance": true,
+  "collectionMethod": "charge_automatically",
+  "description" : "int invoice",
+  "currency": "bgn",
+  "amount":"666"
+}

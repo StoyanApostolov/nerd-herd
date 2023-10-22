@@ -1,0 +1,8 @@
+{
+  "name":"Test customer",
+  "cardNumber":"4242424242424242",
+  "cvc":"666",
+  "country":"Bulgaria",
+  "expMonth":12,
+  "expYear":2023
+}
